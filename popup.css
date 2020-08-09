@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Calluna;
+  src: url(./fonts/Calluna-Regular.otf);
+}
+
+@font-face {
+  font-family: Grotesk;
+  src: url(./fonts/HKGrotesk-Regular.otf);
+}
+
+body {
+  width: 450px;
+}
+.wave {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+.title {
+  padding-left: 40px;
+  font-weight: 400;
+  font-family: Calluna;
+  font-size: 72px;
+}
+
+.score {
+  font-family: Calluna;
+  font-size: 144px;
+  font-weight: 200;
+  margin-top: 0;
+  padding-top: 20px;
+  line-height: 110px;
+  color: #848862;
+  padding-left: 40px;
+}
+
+.score-container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.materials {
+  display: flex;
+  margin-right: 80px;
+  margin-top: -140px;
+  flex-direction: column;
+}
+
+.material {
+  line-height: 1px;
+  font-family: Grotesk;
+  font-size: 20px;
+  font-weight: 150;
+}
+
+.label {
+  font-family: Grotesk;
+  padding-left: 40px;
+  font-size: 24px;
+  font-weight: 150;
+  margin-top: -60px;
+}
+
+.brand-text {
+  word-spacing: 9999999px;
+  font-family: Grotesk;
+  font-size: 24px;
+  padding-left: 40px;
+  font-weight: 150;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
